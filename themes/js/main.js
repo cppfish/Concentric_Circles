@@ -4,14 +4,15 @@ var delta = [0, 0];
 var stage = [window.screenX, window.screenY, window.innerWidth, window.innerHeight];
 getBrowserDimensions();
 
-var themes = [["#10222B", "#95AB63", "#BDD684", "#E2F0D6", "#F6FFE0"],
-    ["#362C2A", "#732420", "#BF734C", "#FAD9A0", "#736859"],
-    ["#0D1114", "#102C2E", "#695F4C", "#EBBC5E", "#FFFBB8"],
-    ["#2E2F38", "#FFD63E", "#FFB54B", "#E88638", "#8A221C"],
-    ["#121212", "#E6F2DA", "#C9F24B", "#4D7B85", "#23383D"],
-    ["#343F40", "#736751", "#F2D7B6", "#BFAC95", "#8C3F3F"],
-    ["#000000", "#2D2B2A", "#561812", "#B81111", "#FFFFFF"],
-    ["#333B3A", "#B4BD51", "#543B38", "#61594D", "#B8925A"]];
+//  背景色，
+var themes = [["#D8BFD8", "#95AB63", "#BDD684", "#E2F0D6", "#F6FFE0"],
+    ["#F5DEB3", "#732420", "#BF734C", "#FAD9A0", "#736859"],
+    ["#BBFFFF", "#102C2E", "#695F4C", "#EBBC5E", "#FFFBB8"],
+    ["#FFF8DC", "#FFD63E", "#FFB54B", "#E88638", "#8A221C"],
+    ["#EEE9E9", "#E6F2DA", "#C9F24B", "#4D7B85", "#23383D"],
+    ["#F0FFF0", "#736751", "#F2D7B6", "#BFAC95", "#8C3F3F"],
+    ["#E6E6FA", "#2D2B2A", "#561812", "#B81111", "#FFFFFF"],
+    ["#FFFAFA", "#B4BD51", "#543B38", "#61594D", "#B8925A"]];
 var theme;
 var htmltext = [
     '<span style="color:#000;font-size:31px;">显示文字的地方</span><br /><br /><span style="font-size:14px;">网址<br/> 什么 <br/>是三行</span>',
